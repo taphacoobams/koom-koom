@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+.box-gradient {
+  background: linear-gradient(145deg, #f3f4f6, #ffffff);
+}
+
+.nav-item-active {
+  @apply text-indigo-500;
+}
+
+.nav-item {
+  @apply text-gray-400 hover:text-gray-600 transition-colors duration-200;
+}
+
+.bottom-nav-container {
+  @apply fixed bottom-6 left-0 right-0 flex justify-center z-50;
+}
+
+.bottom-nav {
+  @apply bg-white shadow-lg rounded-full px-6 py-3 flex items-center gap-8;
+}
